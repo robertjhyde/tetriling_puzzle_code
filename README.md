@@ -1,6 +1,6 @@
 # tetriling_puzzle_code
 Challenge set by tutors, they provided 'utils.py' and 'performace_test_v2.py' with functions to generate the grid, test and display the given solution etc.
-My solution is 'main.py', it utilises a named-node tree format to store possible Tetris shapes to test against the grid.
+My solution is 'main_final.py', it utilises a named-node tree format to store possible Tetris shapes to test against the grid.
 
 It does this through a 'Node' class, where each node's name is it's relative position to the selected square.
 The algorithm then uses recursion to iterate through the tree, using the node's name to test if that position fits into the grid. If it does, it calls itself again, so moves onto that child's children in the tree and repeats.
