@@ -8,3 +8,5 @@ Once it gets to the last child, it returns the name of that piece, as desribed i
 The process repeats for all available squares in the target grid, if not piece is found to fit, it moves onto the next square.
 
 Using a tree format and recursion drastically reduces running time and by pikcing the most common child each time, it doesn't sacrifice on accuracy.
+
+For a Target Grid of 100 x 100 squares with Density = 0.8: Average Running Time = 0.014 seconds, Average Accuracy = 95.5%.
