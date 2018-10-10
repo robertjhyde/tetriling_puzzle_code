@@ -1,5 +1,5 @@
 # tetriling_puzzle_code
-Challenge set by tutors, they provided 'utils.py' and 'performace_test_v2.py' with functions to generate the grid, test the given solution etc.
+Challenge set by tutors, they provided 'utils.py' and 'performace_test_v2.py' with functions to generate the grid, test and display the given solution etc.
 My solution is 'main.py', it utilises a named-node tree format to store possible Tetris shapes to test against the grid.
 
 It does this through a 'Node' class, where each node's name is it's relative position to the selected square.
